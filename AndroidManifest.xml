@@ -1,0 +1,120 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aexp.explist">
+      <uses-permission android:name="android.permission.READ_CONTACTS" />
+            <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <supports-screens android:anyDensity="true"/>
+	<supports-screens android:smallScreens="true"/>
+	<supports-screens android:normalScreens="true"/>
+	<supports-screens android:largeScreens="true"/>        
+    <application 
+    android:icon="@drawable/oxplorer" 
+    android:label="@string/app_name">
+        
+   
+            <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+     
+     
+     
+        
+    <activity android:name=".AddGroup"
+              android:theme="@android:style/Theme.Light">
+    </activity> 
+    <activity android:name=".ANDROID_RSS_READER"
+              android:theme="@android:style/Theme.Light.NoTitleBar">
+    </activity>         
+           <activity android:name=".RenameGroup"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+         <activity android:name="com.androidrss.preference.EditingNameGroup"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+  
+      <activity android:name="fr.marvinlabs.selectablelisttutorial.MainActivity"
+           android:theme="@android:style/Theme.Light">
+          </activity>         
+       <activity android:name=".ShowDetail_WB"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+      <activity android:name=".ShowDetail_Process"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+      <activity android:name=".ShowDetail_Document"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+       <activity android:name=".showFullImage"
+       android:theme="@android:style/Theme.Light">
+          </activity>
+       <activity android:name=".MoveToGroup"
+       android:theme="@android:style/Theme.Light">
+          </activity>     
+          
+                 
+          
+       <activity android:name="com.androidrss.preference.SetPreference"
+           android:theme="@android:style/Theme.Light">
+          </activity>    
+        
+       <activity android:name="com.androidrss.preference.Setting"
+       android:theme="@android:style/Theme.Light.NoTitleBar">
+          </activity>
+          
+       <activity android:name="com.androidrss.preference.LanguageSetting"
+       android:theme="@android:style/Theme.Light.NoTitleBar">
+          </activity>      
+       <activity android:name="com.androidrss.preference.RemoverMandant"
+       android:theme="@android:style/Theme.Light">
+          </activity> 
+              <activity android:name=".MoveWB">
+          </activity>     
+         <activity android:name="com.test.protobuf.daytrader.MainProtobuf"
+           android:theme="@android:style/Theme.Light">
+          </activity> 
+                 <activity android:name="com.test.protobuf.daytrader.TestProtobuf"
+           android:theme="@android:style/Theme.Light">
+          </activity>   
+         <activity android:name=".ShowListProcessWithDocs"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+          </activity>   
+         <activity android:name=".ShowListPageWithImage"
+           android:theme="@android:style/Theme.Light.NoTitleBar">
+          </activity>  
+         
+         <activity android:name="ViewImagesActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+         
+         <activity android:name=".IndexDoc"
+			 android:theme="@android:style/Theme.Light.NoTitleBar"/>   
+			
+           <activity android:name="test">
+          </activity>  
+          <activity android:name="test2">
+          </activity>  
+          <activity android:name=".SplashScreen1"
+          android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />   
+          		
+	
+
+				<uses-permission android:name="android.permission.READ_CONTACTS" />
+	 <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+	  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-feature android:name="android.hardware.camera"></uses-feature> 
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-feature android:name="android.hardware.camera.autofocus" />
+	 
+	 
+    </application>
+       <uses-permission android:name="android.permission.INTERNET" /> 
+       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>    
+    <uses-sdk android:minSdkVersion="8" />
+</manifest> 

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+>
+
+
+   <TableLayout
+        android:id="@+id/leftTbl"
+        android:layout_height="62dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TableRow
+            android:minHeight="17dp">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="17dp"
+                android:orientation="vertical">
+
+  <TextView 
+  android:id="@+id/childname_scr2" 
+  android:textSize="18dp" 
+  android:layout_width="wrap_content"
+  android:ellipsize="end"
+  android:textColor="@drawable/viewcolor"
+                    android:layout_gravity="fill_vertical"
+                     android:gravity="top|left"
+                    android:minHeight="17dp"
+                    android:textStyle="bold" /> 
+                                </TableRow>
+        </TableRow>
+                    
+   <TableRow
+            android:minHeight="17dp">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="17dp"
+                android:orientation="vertical">                  
+  <TextView 
+  android:id="@+id/r2_scr2" 
+  android:textSize="13dp" 
+  android:layout_width="wrap_content"
+  android:ellipsize="end"
+  android:gravity="top|left"
+                    android:layout_gravity="fill_vertical"
+                    android:textColor="@drawable/viewcolor"
+                    android:minHeight="17dp"
+                    /> 
+                    
+                    
+                    
+            </TableRow>
+        </TableRow>
+     <TableRow
+            android:minHeight="17dp">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="17dp"
+                android:orientation="vertical">                  
+  <TextView 
+  android:id="@+id/r3_scr2" 
+  android:textSize="13dp" 
+  android:layout_width="wrap_content"
+  android:ellipsize="end"
+  android:gravity="top|left"
+                    android:layout_gravity="fill_vertical"
+                    android:textColor="@drawable/viewcolor"
+                    android:minHeight="17dp"
+                    /> 
+                    
+                    
+                    
+            </TableRow>
+        </TableRow>       
+    </TableLayout>
+<RelativeLayout android:layout_width="47dp"
+    	android:layout_height="63dp"
+    	android:layout_marginRight="10dp"
+    	android:background="@drawable/nav_black_3">   
+   <Button
+ android:layout_marginLeft="0dp"	    
+ android:gravity="center_vertical"
+ android:id="@+id/ThumbnailDoc" 
+ android:layout_height="58dp" 
+ android:background="@xml/thumbnail"
+ android:layout_width="42dp" 
+ android:layout_marginRight="2dp"
+ android:layout_marginTop="5dp" 
+ android:layout_gravity="bottom|center">
+		</Button>
+ </RelativeLayout>   		
+  <TextView 
+  android:id="@+id/numpage" 
+  android:textSize="18dp" 
+  android:text="3" 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textColor="#ff0000"
+  android:gravity="bottom|center"
+  android:paddingLeft="5dp"
+  android:textStyle="bold"
+  android:layout_marginRight="10dp"
+  android:layout_gravity="center" />   
+  </LinearLayout>

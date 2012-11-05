@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+       <TextView 
+      android:id="@+id/tv"
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:text="Select Group To Move WB To :"/>	    
+	    
+	  <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List Group"
+        android:layout_marginTop="5dp"       
+    /> 
+ 
+             <ExpandableListView 
+                android:id="@id/android:list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+ 
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+ 
+ 	<Button 
+ 	     
+		    android:id="@+id/ApplyMove"
+			android:layout_width="110dp" 
+			android:layout_height="fill_parent"
+			android:onClick="onButtonClick" 
+			android:textStyle="bold"
+			android:text="Apply" />	
+	<Button android:id="@+id/OkMove"
+			android:layout_width="110dp" 
+			android:layout_height="fill_parent"
+		    android:onClick="onButtonClick"
+		    android:textStyle="bold" 
+			android:text="Ok" />
+	<Button android:id="@+id/ExitMove"
+			android:layout_width="110dp"
+			android:layout_height="fill_parent"
+		    android:onClick="onButtonClick" 
+		    android:textStyle="bold"
+			android:text="Cancel" />	
+    </LinearLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:id="@+id/buttonLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		>
+		<TextView  
+	android:id="@+id/TextView01" android:layout_width="80dp" 
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	 android:text="353t"/>
+		<TextView  
+	android:id="@+id/TextView02" android:layout_width="170dp" 
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	 android:text="Value"/>
+		<Button android:id="@+id/Change"
+	        android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+		    android:textSize="13px"
+			android:text="Change" 
+			android:textStyle="bold"
+			android:layout_marginRight="0dp"
+			/>	
+
+ 	</LinearLayout>

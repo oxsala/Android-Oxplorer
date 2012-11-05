@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+
+   <ListPreference
+  android:title="TextSize for Group"
+  android:summary="Select TextSize for Group"
+  android:key="listPrefTextSizeGroup"
+  android:entries="@array/listDisplaySizeGroup"
+  android:entryValues="@array/listReturnValueSizeGroup" />
+
+
+   <ListPreference
+  android:title="TextSize for WorkBasket"
+  android:summary="Select TextSize for WorkBasket"
+  android:key="listPrefTextSizeWorkBasket"
+  android:entries="@array/listDisplaySizeWorkBasket"
+  android:entryValues="@array/listReturnValueSizeWorkBasket" />
+  
+   <ListPreference
+  android:title="TextSize for data"
+  android:summary="Select TextSize for data "
+  android:key="listPrefTextSizeData"
+  android:entries="@array/listDisplaySizeData"
+  android:entryValues="@array/listReturnValueSizeData" />
+  
+    <ListPreference
+  android:title="Color for Group"
+  android:summary="Select Color for Group"
+  android:key="listPrefTextColorGroup"
+  android:entries="@array/listDisplayColorGroup"
+  android:entryValues="@array/listReturnValueColorGroup" />
+  
+      <ListPreference
+  android:title="Color for WorkBasket"
+  android:summary="Select Color for WorkBasket"
+  android:key="listPrefTextColorMandant"
+  android:entries="@array/listDisplayColorWorkBasket"
+  android:entryValues="@array/listReturnValueColorWorkBasket" />
+  
+      <ListPreference
+  android:title="Color for Data"
+  android:summary="Select Color for Data"
+  android:key="listPrefTextColorData"
+  android:entries="@array/listDisplayColorData"
+  android:entryValues="@array/listReturnValueColorData" />
+
+  </PreferenceScreen>
+  

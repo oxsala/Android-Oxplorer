@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="listDisplayWord">
+ <item>30s</item>
+ <item>1minutes</item>
+  <item>5minutes</item>
+ <item>15minutes</item>
+ <item>30minutes</item>
+ <item>60minutes</item>
+</string-array>
+<string-array name="listReturnValue">
+ <item>30s</item>
+ <item>1minutes</item>
+  <item>5minutes</item>
+ <item>15minutes</item>
+ <item>30minutes</item>
+ <item>60minutes</item>
+</string-array>
+
+
+<string-array name="listDisplaySizeGroup">
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+<string-array name="listReturnValueSizeGroup">
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+
+<string-array name="listDisplaySizeWorkBasket">
+
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+<string-array name="listReturnValueSizeWorkBasket">
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+<string-array name="listDisplaySizeData">
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+<string-array name="listReturnValueSizeData">
+ <item>10</item>
+ <item>12</item>
+ <item>14</item>
+  <item>16</item>
+ <item>18</item>
+ <item>20</item>
+ <item>22</item>
+</string-array>
+
+<string-array name="listDisplayColorGroup">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorGroup">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listDisplayColorWorkBasket">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorWorkBasket">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listDisplayColorData">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorData">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+</resources>

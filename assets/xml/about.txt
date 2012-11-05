@@ -1,0 +1,9 @@
+Ứng dụng được phát triển bởi : HuynhClub
+
+Hy vọng source code này có thể giúp các anh em mới bước đầu làm quen với Android nắm bắt được các kỹ năng thiết kế về Layout với hình ảnh, thao tác lấy dữ liệu từ file XML, TXT hiển thị lên ListView và GridView.
+
+//----------------------
+Tên : Rất Muốn Béo
+Công ty : United Technologies Corporation
+Add: 07th Floor - Danang Software Park, 02 Quang Trung St., Danang City, Vietnam
+Email : huynhduc89dn@gmail.com

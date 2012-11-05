@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="horizontal" 
+         android:layout_width="fill_parent"
+         android:layout_height="65sp" 
+         android:background="#dedede"
+         android:gravity="center_vertical">
+<TextView android:id="@+id/groupname"
+         android:textSize="20dp"
+         android:textStyle="bold"
+		 android:paddingLeft="40dp"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+          android:textColor="#55771B"
+         />
+  <Button
+         
+         android:id="@+id/edit_group" 
+         android:paddingRight="10dp"
+         android:background="@drawable/renamegroupicon"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+          android:focusable="false" />         
+ <Button 
+    
+         android:id="@+id/sort_group"
+         android:layout_marginRight="6dp"
+         android:background="@drawable/down_arrow"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:focusable="false" />        
+ <Button 
+    
+         android:id="@+id/delete_group"
+         android:layout_marginRight="6dp"
+         android:background="@drawable/removegroupicon"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:focusable="false" />
+
+ </LinearLayout>

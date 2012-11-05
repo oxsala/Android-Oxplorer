@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom
+END
+ImageZoomView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom/ImageZoomView.java
+END
+ZoomState.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom/ZoomState.java
+END
+ZoomControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/209/trunk/ANDROID_OXPLORER/src/com/hots/zoom/ZoomControl.java
+END
+Dynamics.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom/Dynamics.java
+END
+AspectQuotient.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom/AspectQuotient.java
+END
+SpringDynamics.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/161/trunk/ANDROID_OXPLORER/src/com/hots/zoom/SpringDynamics.java
+END
+TouchZoomListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/209/trunk/ANDROID_OXPLORER/src/com/hots/zoom/TouchZoomListener.java
+END

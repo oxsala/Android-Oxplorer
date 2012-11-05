@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent"
+         android:id="@+id/indexdoc">
+ 
+  <LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="52dp"
+    	android:orientation="horizontal"
+    	android:background="@drawable/navigation_bar_top">
+    	<TextView android:id="@+id/index_doc_btn_back"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="8dp"
+	    	android:text="Back"
+	    	android:textStyle="bold"
+	    	android:gravity="center_vertical"
+	    	android:layout_centerVertical="true"
+	    	android:textColor="@xml/btn_back_selector"
+	    	android:background="@xml/btn_back_selector">
+    	</TextView>
+    	<LinearLayout
+         android:orientation="vertical"
+          android:layout_marginRight="10dp"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content">
+	     <TextView android:id="@+id/title_doc"
+	        android:layout_marginLeft="15dp"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textStyle="bold"
+		    android:gravity="center"
+		    android:textColor="@color/color_white"
+		    android:textSize="18dp"
+		    android:text="Doc1"
+		    android:layout_centerVertical="true"
+		    android:layout_centerHorizontal="true"/>
+		 <TextView android:id="@+id/num_page"
+		    android:layout_marginLeft="10dp"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textStyle="bold"
+		    android:gravity="center"
+		    android:textColor="@color/color_white"
+		    android:textSize="18dp"
+		    android:text="Number Of Page : "
+		    android:layout_centerVertical="true"
+		    android:layout_centerHorizontal="true"/>	 	 
+		    </LinearLayout>	
+		    
+		 <Button android:id="@+id/i_symbol"
+	        android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_margin="1dp" 
+			android:background="@xml/i_symbol"
+			android:layout_marginRight="0dp"
+			/>		
+    </LinearLayout>   
+    
+       <RelativeLayout
+ 	    android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+   <ProgressBar android:id="@+id/progress_bar"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerInParent="true"/>
+		</RelativeLayout>  
+		
+
+		      
+    <ListView android:id="@+id/android:list"         
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"        
+        android:layout_weight="1"
+        android:stackFromBottom="false"
+        android:transcriptMode="normal"/>
+        
+
+		
+     <Gallery 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/examplegallery" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" />	   
+</LinearLayout>

@@ -1,0 +1,77 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+
+   <ListPreference
+  android:title="TextSize for Group"
+  android:summary="Select TextSize for Group"
+  android:key="listPrefTextSizeGroup"
+  android:entries="@array/listDisplaySizeGroup"
+  android:entryValues="@array/listReturnValueSizeGroup" />
+
+
+   <ListPreference
+  android:title="TextSize for WorkBasket"
+  android:summary="Select TextSize for WorkBasket"
+  android:key="listPrefTextSizeWorkBasket"
+  android:entries="@array/listDisplaySizeWorkBasket"
+  android:entryValues="@array/listReturnValueSizeWorkBasket" />
+  
+   <ListPreference
+  android:title="TextSize for TimeStamp"
+  android:summary="Select TextSize for TimeStamp "
+  android:key="listPrefTextSizeTimeStamp"
+  android:entries="@array/listDisplaySizeTimeStamp"
+  android:entryValues="@array/listReturnValueSizeTimeStamp" />
+  
+     <ListPreference
+  android:title="TextSize for Process Name"
+  android:summary="Select TextSize for Process Name"
+  android:key="listPrefTextSizeProcessName"
+  android:entries="@array/listDisplaySizeProcessName"
+  android:entryValues="@array/listReturnValueSizeProcessName" />
+  
+      <ListPreference
+  android:title="TextSize for Document Name"
+  android:summary="Select TextSize for Document Name"
+  android:key="listPrefTextSizeDocName"
+  android:entries="@array/listDisplaySizeDocName"
+  android:entryValues="@array/listReturnValueSizeDocName" />
+  
+    <ListPreference
+  android:title="Color for Group"
+  android:summary="Select Color for Group"
+  android:key="listPrefTextColorGroup"
+  android:entries="@array/listDisplayColorGroup"
+  android:entryValues="@array/listReturnValueColorGroup" />
+  
+      <ListPreference
+  android:title="Color for WorkBasket"
+  android:summary="Select Color for WorkBasket"
+  android:key="listPrefTextColorWorkBasket"
+  android:entries="@array/listDisplayColorWorkBasket"
+  android:entryValues="@array/listReturnValueColorWorkBasket" />
+  
+      <ListPreference
+  android:title="Color for Timestamp"
+  android:summary="Select Color for Timestamp"
+  android:key="listPrefTextColorTimestamp"
+  android:entries="@array/listDisplayColorTimeStamp"
+  android:entryValues="@array/listReturnValueColorTimeStamp" />
+  
+      <ListPreference
+  android:title="Color for Process Name"
+  android:summary="Select Color for Process Name"
+  android:key="listPrefTextColorProcessName"
+  android:entries="@array/listDisplayColorProcessName"
+  android:entryValues="@array/listReturnValueColorProcessName" />
+  
+      <ListPreference
+  android:title="Color for Document Name"
+  android:summary="Select Color for Document Name"
+  android:key="listPrefTextColorDocName"
+  android:entries="@array/listDisplayColorDocName"
+  android:entryValues="@array/listReturnValueColorDocName" />
+
+  </PreferenceScreen>
+  

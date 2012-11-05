@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+<string-array name="listDisplaySizeGroup">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listReturnValueSizeGroup">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+
+</string-array>
+
+
+<string-array name="listDisplaySizeWorkBasket">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listReturnValueSizeWorkBasket">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listDisplaySizeTimeStamp">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listReturnValueSizeTimeStamp">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+
+<string-array name="listDisplaySizeProcessName">
+ <item>Small</item>
+ <item>Medium</item>
+</string-array>
+
+<string-array name="listReturnValueSizeProcessName">
+ <item>Small</item>
+ <item>Medium</item>
+</string-array>
+
+
+<string-array name="listDisplaySizeDocName">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listReturnValueSizeDocName">
+ <item>Very small</item>
+ <item>Small</item>
+ <item>Medium</item>
+ <item>Large</item>
+ <item>Xlarge</item>
+</string-array>
+
+<string-array name="listDisplayColorGroup">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorGroup">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listDisplayColorWorkBasket">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorWorkBasket">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listDisplayColorTimeStamp">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorTimeStamp">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+
+<string-array name="listDisplayColorProcessName">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorProcessName">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listDisplayColorDocName">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+
+<string-array name="listReturnValueColorDocName">
+ <item>Black</item>
+ <item>White</item>
+ <item>Red</item>
+ <item>Green</item>
+  <item>Yellow</item>
+ <item>Blue</item>
+ <item>Pink</item>
+ <item>Turquoise</item>
+</string-array>
+</resources>

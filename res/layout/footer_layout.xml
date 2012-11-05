@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+ 	    android:id="@+id/buttonLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" >
+	<Button 
+	    android:id="@+id/ApplyMove"
+		android:layout_width="110dp" 
+		android:layout_height="wrap_content"
+	 
+		android:onClick="onButtonClick" 
+		android:textStyle="bold"
+		android:layout_alignParentBottom="true"
+		android:text="Apply" />	
+	<Button android:id="@+id/OkMove"
+		android:layout_width="110dp" 
+		android:layout_height="wrap_content"
+	    android:onClick="onButtonClick"
+		android:textStyle="bold" 
+		android:layout_alignParentBottom="true"
+	    android:layout_toRightOf="@id/ApplyMove"
+	    android:text="Ok" />
+	<Button android:id="@+id/ExitMove"
+	    android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:onClick="onButtonClick" 
+		android:textStyle="bold"
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@id/OkMove"
+	    android:text="Cancel" />	
+ 	</RelativeLayout>    

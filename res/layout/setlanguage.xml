@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/myScreen"
+    >
+      <RelativeLayout android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+    	android:background="@drawable/navigation_bar_top">
+    	<TextView android:id="@+id/albums_activity_btn_back"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="5dp"
+	    	android:text="Back"
+	    	android:textStyle="bold"
+	    	android:gravity="center_vertical"
+	    	android:layout_centerVertical="true"
+	    	android:textColor="@xml/btn_back_selector"
+	    	android:background="@xml/btn_back_selector">
+    	</TextView>
+    	<TextView android:id="@+id/albums_activity_txt_title"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Setting Language"
+	    	android:textColor="@color/color_white"
+	    	android:textSize="15dp"
+	    	android:textStyle="bold"
+	    	android:gravity="center"
+	    	android:layout_centerHorizontal="true"
+	    	android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:id="@+id/albums_activity_btn_back"
+    		android:layout_width="fill_parent"
+	    	android:layout_height="20dp"
+	    	android:textStyle="bold"
+	    	android:text="SELECT LANGUAGE"
+	    	android:gravity="center|bottom">
+    	</TextView>    
+ <LinearLayout
+    	android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom">
+ <LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+      <Button android:id="@+id/englishicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/language_english"
+    />      
+     <Button android:id="@+id/setEnglish"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_weight="2"
+        android:text="ENGLISH"
+        android:background="@drawable/language_btn_state"
+        android:clickable="true"/>
+    </LinearLayout>
+    
+       <TextView android:id="@+id/albums_activity_btn_back"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="20dp"
+	    	android:layout_marginLeft="5dp"
+	    	android:text="">
+    	</TextView>
+    	
+    <LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+      <Button android:id="@+id/germanyicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/language_germany"/>             
+      <Button android:id="@+id/SetGermany"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_weight="2"
+        android:text="GERMANY"
+        android:background="@drawable/language_btn_state"
+        android:clickable="true"/>
+    </LinearLayout>
+    
+    </LinearLayout>      
+
+
+ 
+    
+ </LinearLayout>

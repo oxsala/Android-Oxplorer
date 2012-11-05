@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical|center_horizontal"
+	android:paddingTop="0dip"
+	android:paddingBottom="0dip"
+	android:paddingLeft="20dip"
+	android:clickable="true"
+	android:background="@drawable/button_state">
+
+
+
+<TextView 
+		android:id="@+id/tv_title"
+		android:layout_width="160dip" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical|center_horizontal"
+		android:textSize="12sp"
+		android:textStyle="bold"
+		android:textColor="#000000"/>
+
+<LinearLayout
+        android:orientation="horizontal" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="center_vertical">		
+<Button android:id="@+id/i_link"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+		android:layout_marginRight="10dp" 
+		android:background="@xml/link_symbol"
+			/>
+<Button android:id="@+id/i_symbol"
+	    android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginRight="10dp" 
+		android:background="@xml/i_symbol"
+			/>
+<Button android:id="@+id/i_edit"
+	    android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp" 
+		android:background="@xml/edit_symbol"
+			/>	 	 	    
+</LinearLayout>     
+</LinearLayout>
